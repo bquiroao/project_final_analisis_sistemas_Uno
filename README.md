@@ -134,3 +134,27 @@ php artisan test
 ## Entrega esperada
 
 El estudiante debe trabajar sobre su propio fork del repositorio y entregar en Canvas el enlace al repositorio forkeado, junto con una breve descripción del módulo implementado y los commits principales que evidencian su avance.
+
+# Módulo Notas Clínicas SOAP
+
+## Descripción
+
+Implementación del módulo de notas clínicas SOAP para el sistema hospitalario.
+
+## Funcionalidades
+
+- Crear nota SOAP
+- Listar notas SOAP
+- Consultar nota SOAP
+
+## Rutas API
+
+POST /api/v1/soap-notes
+
+GET /api/v1/soap-notes
+
+GET /api/v1/soap-notes/{id}
+
+## Evidencias
+
+Las evidencias se encuentran organizadas por Sprint dentro de la carpeta evidencias.
